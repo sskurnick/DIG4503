@@ -3,7 +3,7 @@ import '../styles.css';
 
 //creating Cat component
 class Cat extends React.Component {
-    render (cat, pets) {
+    render (cat, pet) {
         return (
             //defining props for onClick
             <div>
