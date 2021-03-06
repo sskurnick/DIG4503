@@ -7,11 +7,7 @@ class Cat extends React.Component {
         return (
             //defining props for onClick
             <div>
-                <img
-                onClick = {this.props.catpets}
-                src = {this.props.catimage}
-                alt = "Kitten" 
-                />
+                <img onClick = {this.props.catpets} src = {this.props.catimage} alt = "Kitten" />
             </div>
         )
     }

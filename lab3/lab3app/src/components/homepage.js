@@ -6,8 +6,9 @@ class HomePage extends React.Component {
 
     //name prop passed to display name
     render(fname) {
-        return <h1>Hi! My name is {this.props.firstName}</h1>;
+        return <h1>{this.props.firstName}'s New Kitten</h1>;
     }
 }
 
+//exporting component
 export default HomePage;
