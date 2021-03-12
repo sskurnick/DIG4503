@@ -38,7 +38,7 @@ App.get('/search/:name', (req, res) => {
     const name = names.filter(str => str.includes(req.params.name));
     //if the character entered matches any of the names in the list
     if(name != 0) {
-        res.json({search: [names]});
+        res.json({search: [name]});
     }
     //if the character entered does not match any of the names in the list
     else {
